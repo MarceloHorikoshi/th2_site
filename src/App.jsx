@@ -1,9 +1,9 @@
-import Login from "./pages/Login/Login";
+import ForgotPassword from "./Pages/ForgotPassword";
 
 function App() {
   return (
     <div className="App">
-      <Login></Login>
+      <ForgotPassword/>
     </div>
   );
 }

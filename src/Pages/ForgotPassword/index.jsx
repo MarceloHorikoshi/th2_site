@@ -1,17 +1,20 @@
-import React from 'react'
+import Header from '../../Components/Header'
 
 export default function ForgotPassword() {
   return (
-    <div className='ForgotPassword'>
-      <h2>Header</h2>
+    <>
+      <Header />
 
-      <h2>Esqueci a Senha</h2>
+      <div className='ForgotPassword'>
 
-      <p>Input Senha</p>
+        <h2>Esqueci a Senha</h2>
 
-      <p>Recuperar Senha</p>
+        <p>Input Senha</p>
 
-      <h2>Footer</h2>
-    </div>
+        <p>Recuperar Senha</p>
+
+        <h2>Footer</h2>
+      </div>
+    </>
   )
 }

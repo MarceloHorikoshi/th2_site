@@ -1,0 +1,23 @@
+.header {
+  background-color: #4D1470;
+  margin: 5px;
+  height: 80px;
+  display: flex;
+  align-content: space-around;
+}
+
+.menu {
+  width: 60px;
+  height: 50px;
+  align-self: center;
+  position: fixed;
+  right: 30px;
+}
+
+.logo {
+  width: 130px;
+  height: 80px;
+  align-self: center;
+  position: fixed;
+  left: 20px;
+}
