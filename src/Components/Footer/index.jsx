@@ -21,7 +21,10 @@ export default function Footer() {
         Todos os direitos reservados
       </p>
 
-      <img src={MenuImage} className={styles.menu} alt="Logo Th2" onClick={() => openMenu()} />
+      <div className={styles.option}>
+        <img src={MenuImage} className={styles.menu} alt="Logo Th2" onClick={() => openMenu()} />
+        <div className={styles.optionText}>Opções</div>
+      </div>
     </div>
   )
 }
