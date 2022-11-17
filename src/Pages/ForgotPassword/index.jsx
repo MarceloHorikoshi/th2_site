@@ -1,5 +1,6 @@
 import Footer from '../../Components/Footer'
 import Header from '../../Components/Header'
+import Button from '../../Components/Button'
 
 export default function ForgotPassword() {
   return (
@@ -10,7 +11,7 @@ export default function ForgotPassword() {
 
       <p>Input Senha</p>
 
-      <p>Recuperar Senha</p>
+      <Button text={'RECUPERAR SENHA'} />
 
       <Footer />
     </div>

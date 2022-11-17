@@ -1,9 +1,12 @@
 .footer {
   background-color: #4D1470;
-  margin: 5px;
+  margin: 10px;
   height: 80px;
+  width: 95%;
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .logo {
