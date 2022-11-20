@@ -1,9 +1,9 @@
-import ForgotPassword from "./Pages/ForgotPassword";
+import ListProducts from "./Pages/Products/ListProducts"
 
 function App() {
   return (
     <div className="App">
-      <ForgotPassword/>
+      <ListProducts/>
     </div>
   );
 }
