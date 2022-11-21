@@ -1,7 +1,7 @@
 .card {
   display: flex;
   width: 90%;
-  height: 40%;
+  height: 200px;
   border-radius: 10px;
   padding: 10px 10px;
   justify-self: center;
@@ -12,4 +12,28 @@
 .cardImage {
   width: 200px;
   height: 200px;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.cardText {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1.5;
+}
+
+.priceWeight {
+  display: flex;
+  flex-direction: row;
+  font-style: italic;
+  margin: 10px;
+}
+
+.price {
+  margin-right: 5px;
 }

@@ -1,20 +1,17 @@
 .footer {
-  background-color: #4D1470;
+  display: flex;
+  justify-content: space-evenly;
   margin: 10px;
   height: 80px;
   width: 95%;
-  display: flex;
-  justify-content: center;
-  position: fixed;
   bottom: 0;
+  background-color: #4D1470;
 }
 
 .logo {
   width: 130px;
   height: 80px;
   align-self: center;
-  position: fixed;
-  left: 20px;
 }
 
 .text {
@@ -23,11 +20,9 @@
 }
 
 .option {
-  position: absolute;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  right: 30px;
 }
 
 .menu {
