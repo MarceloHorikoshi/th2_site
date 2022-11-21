@@ -1,6 +1,9 @@
-import styles from './header.module.css'
+import React from 'react'
+
 import LogoImage from '../../assets/logo.png'
 import MenuImage from '../../assets/ic_sanduiche_header.png'
+
+import styles from './header.module.css'
 
 export default function Header() {
   const redirectHome = () => {

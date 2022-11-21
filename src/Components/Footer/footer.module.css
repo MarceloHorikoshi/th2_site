@@ -5,7 +5,7 @@
   width: 95%;
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 

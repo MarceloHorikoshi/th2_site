@@ -1,5 +1,8 @@
-import styles from "./searchbar.module.css";
+import React from 'react'
+
 import SearchIcon from '../../assets/ic_lupa_header.png'
+
+import styles from "./searchbar.module.css";
 
 export default function SearchBar() {
   const search = () => {

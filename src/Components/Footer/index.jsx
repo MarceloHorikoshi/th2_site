@@ -1,6 +1,8 @@
-import styles from './footer.module.css'
+import React from 'react'
 import LogoImage from '../../assets/logo.png'
 import MenuImage from '../../assets/menu_options.png'
+
+import styles from './footer.module.css'
 
 export default function Footer() {
   const redirectHome = () => {
@@ -22,7 +24,7 @@ export default function Footer() {
       </p>
 
       <div className={styles.option}>
-        <img src={MenuImage} className={styles.menu} alt="Logo Th2" onClick={() => openMenu()} />
+        <img src={MenuImage} className={styles.menu} alt="Menu Options" onClick={() => openMenu()} />
         <div className={styles.optionText}>Opções</div>
       </div>
     </div>

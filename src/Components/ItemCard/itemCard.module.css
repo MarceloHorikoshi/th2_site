@@ -1,3 +1,15 @@
-.itemCard {
-  
+.card {
+  display: flex;
+  width: 90%;
+  height: 40%;
+  border-radius: 10px;
+  padding: 10px 10px;
+  justify-self: center;
+  margin: 10px;
+  border: 1.5px solid #4D1470;
+}
+
+.cardImage {
+  width: 200px;
+  height: 200px;
 }
