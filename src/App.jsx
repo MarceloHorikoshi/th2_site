@@ -1,11 +1,10 @@
 import React from 'react'
-
-import ListProducts from "./Pages/Products/ListProducts"
+import CreateProducts from './Pages/Products/CreateProducts';
 
 function App() {
   return (
     <div className="App">
-      <ListProducts/>
+      <CreateProducts />
     </div>
   );
 }

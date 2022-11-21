@@ -17,7 +17,10 @@ export default function ForgotPassword() {
 
       <p>Digite seu email para enviarmos um link de redefinição de senha</p>
 
-      <TextInput />
+      <TextInput
+        text={'Digite seu email...'}
+        value={'email'}
+      />
 
       <Button text={'RECUPERAR SENHA'} />
 
