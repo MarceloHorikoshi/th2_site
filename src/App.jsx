@@ -1,10 +1,10 @@
 import React from 'react'
-import DetailProduct from './Pages/Products/DetailProduct'
+import Cart from './Pages/Order/Cart'
 
 function App() {
   return (
     <div className="App">
-      <DetailProduct />
+      <Cart />
     </div>
   );
 }
