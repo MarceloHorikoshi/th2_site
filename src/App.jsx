@@ -1,10 +1,10 @@
 import React from 'react'
-import UseTerm from './Pages/UseTerm'
+import DetailProduct from './Pages/Products/DetailProduct'
 
 function App() {
   return (
     <div className="App">
-      <UseTerm />
+      <DetailProduct />
     </div>
   );
 }
