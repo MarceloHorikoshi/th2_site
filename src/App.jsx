@@ -1,10 +1,10 @@
 import React from 'react'
-import CreateProducts from './Pages/Products/CreateProducts';
+import UseTerm from './Pages/UseTerm'
 
 function App() {
   return (
     <div className="App">
-      <CreateProducts />
+      <UseTerm />
     </div>
   );
 }
