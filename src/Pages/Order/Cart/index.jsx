@@ -4,7 +4,7 @@ import Footer from '../../../Components/Footer'
 import Header from '../../../Components/Header'
 import Button from '../../../Components/Button'
 import TextInput from '../../../Components/TextInput'
-import ItemCart from '../../../Components/ItemCart'
+import ItemRequest from '../../../Components/ItemRequest'
 
 import BoloLaranja from '../../../assets/bolo-laranja-schar.png'
 import PaoForma from '../../../assets/pao_forma_schar.jpg'
@@ -59,14 +59,14 @@ export default function Cart() {
         <h2>Subtotal</h2>
       </div>
 
-      <ItemCart
+      <ItemRequest
         image={listItens[0].image}
         name={listItens[0].name}
         quantity={listItens[0].quantity}
         price={listItens[0].price}
       />
 
-      <ItemCart
+      <ItemRequest
         image={listItens[1].image}
         name={listItens[1].name}
         quantity={listItens[1].quantity}
