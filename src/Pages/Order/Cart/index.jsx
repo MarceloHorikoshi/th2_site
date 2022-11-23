@@ -55,6 +55,7 @@ export default function Cart() {
 
       <div className={styles.title}>
         <h2>Descrição</h2>
+        <br />
         <h2>Qtd</h2>
         <h2>Preço</h2>
         <h2>Subtotal</h2>

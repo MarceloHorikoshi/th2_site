@@ -1,34 +1,31 @@
+button {
+  height:20px;
+  margin: 20px;
+}
+
 .line {
   height: 1px;
   background: black;
   margin: 10px auto;
 }
 
-.cardImage {
-  width: 200px;
+.item {
+  width: 150px;
   height: 200px;
 }
 
-.cardTitle {
-  font-weight: 600;
-  font-size: 20px;
-  margin: 10px;
+.titleImage {
+  display: flex;
+  flex-direction: column;
 }
 
-.cardText {
-  font-size: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  line-height: 1.5;
-}
-
-.priceWeight {
+.buttonResize {
   display: flex;
   flex-direction: row;
-  font-style: italic;
-  margin: 10px;
 }
 
-.price {
-  margin-right: 5px;
+.lineItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

@@ -1,7 +1,6 @@
 h1 {
   font-weight: 600;
   color: #4D1470;
-  margin-left: 30%;
   text-align: center;
 }
 
@@ -13,12 +12,13 @@ p {
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .title {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .line {
@@ -28,10 +28,8 @@ p {
 }
 
 .cartIcon {
-  width: 150px;
-  height: 200px;
-  align-self: center;
-  justify-content: center;
+  width: 120px;
+  height: 140px;
 }
 
 .bottomGroup {
