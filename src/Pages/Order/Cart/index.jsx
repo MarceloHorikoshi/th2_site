@@ -8,6 +8,7 @@ import ItemRequest from '../../../Components/ItemRequest'
 
 import BoloLaranja from '../../../assets/bolo-laranja-schar.png'
 import PaoForma from '../../../assets/pao_forma_schar.jpg'
+import CartImage from '../../../assets/cart.png'
 
 import styles from './cart.module.css'
 
@@ -48,7 +49,7 @@ export default function Cart() {
       <Header />
 
       <div className={styles.header}>
-        <p>Imagem</p>
+        <img src={CartImage} className={styles.cartIcon} alt="Cart Icon" />
         <h1>Carrinho de Compras</h1>
       </div>
 
@@ -73,6 +74,8 @@ export default function Cart() {
         price={listItens[1].price}
       />
 
+      <div className={styles.line} />
+
       <div className={styles.bottomGroup}>
         <div className={styles.inputs}>
           <p>Cupom de desconto:</p>
@@ -86,16 +89,17 @@ export default function Cart() {
             value={'cep'}
           />
         </div>
-        <div className={styles.bottomTitle}>
+        <div className={styles.inputs}>
+          <br /><br /><br />
           <p>Subtotal</p>
           <p>Correios</p>
           <h2>Total</h2>
         </div>
-        <div className={styles.bottomPrice}>
-          <p>Resumo</p>
-          <p>{subTotal}</p>
-          <p>{shipTotal}</p>
-          <h2>{total}</h2>
+        <div className={styles.inputs}>
+          <h2>Resumo</h2>
+          <p>R$ {subTotal}</p>
+          <p>R$ {shipTotal}</p>
+          <h2>R$ {total}</h2>
         </div>
       </div>
 
